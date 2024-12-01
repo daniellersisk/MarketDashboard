@@ -11,7 +11,7 @@ from .models import Instrument
 # They streamline the process of creating APIs and make the backend more reliable and robust when communicating with frontends or external systems. Let me know if you’d like more examples or deeper insights into serializers!
 
 
-class StockSerializer(serializers.ModelSerializer):
+class InstrumentSerializer(serializers.ModelSerializer):
     class Meta:
         model = Instrument
         fields = '__all__'
